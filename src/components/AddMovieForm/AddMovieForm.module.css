@@ -1,0 +1,145 @@
+/* Small Screen */
+.container {
+  margin: 5rem 1rem;
+  padding: 1rem;
+}
+
+.addmovieform {
+  display: flex;
+  flex-direction: column;
+}
+
+.addmovieform__left {
+  margin-bottom: 1rem;
+  padding-right: 10px;
+  padding-left: 30px;
+  text-align: justify;
+}
+
+.addmovieform__right {
+  margin-bottom: 1rem;
+  padding-right: 10px;
+  padding-left: 30px;
+  text-align: justify;
+}
+
+.addmovieform__title {
+  color: #4361ee;
+  margin-bottom: 1rem;
+  font-size: 2.44rem;
+  padding-right: 60px;
+  text-align: center;
+}
+
+.addmovieform__group {
+  text-align: left;
+  display: flex;
+  flex-direction: column;
+  padding-left: 20px;
+  margin: auto;
+}
+
+.addmovieform__label {
+  margin-bottom: 1rem;
+  margin-top: 1rem;
+  margin: 5px;
+  font-size: x-large;
+}
+
+.addmovieform__input {
+  margin-bottom: 1rem;
+  outline: none;
+  width: auto;
+  padding: 12px 20px;
+  margin: 8px 0;
+  border-radius: 10px;
+  border: 1px solid;
+  font-size: large;
+}
+
+.addmovieform_group2 {
+  text-align: left;
+  flex-direction: column;
+  padding-left: 20px;
+}
+
+.addmovieform_picture {
+  margin-bottom: 1rem;
+  outline: none;
+  width: auto;
+  padding: 8px 10px;
+  margin: 8px 0;
+  border-radius: 10px;
+  border: 1px solid;
+  font-size: large;
+}
+
+.addmovieform_select {
+  margin-bottom: 1rem;
+  padding: 8px 10px;
+  border-radius: 5px;
+  margin: 10px;
+  padding-left: 30px;
+  width: auto;
+
+}
+
+.addmovieform__button {
+  padding: 0.7rem 3rem;
+  margin: 8px;
+  margin-left: 8px;
+  border: none;
+  border-radius: 10px;
+  background-color: #4361ee;
+  color: white;
+  width: 80%;
+  padding: 14px 20px;
+  margin: 8px 0;
+  cursor: pointer;
+  font-size: larger;
+}
+
+.addmovieform__image {
+  max-width: 100%;
+  height: auto;
+  border-radius: 25px;
+}
+
+/* Medium Screen */
+@media (min-width: 768px) {
+  .addmovieaddmovieform__container {
+    flex-direction: row;
+    flex-wrap: wrap;
+    justify-content: center;
+    align-items: center;
+  }
+
+  .addmovieaddmovieform {
+    flex-basis: 50%;
+  }
+}
+
+/* Large Screen */
+@media (min-width: 992px) {
+  .container {
+    max-width: 1200px;
+    margin: 3rem auto;
+  }
+
+  .addmovieform {
+    margin: 0 1rem;
+    flex-direction: row;
+    justify-content: space-between;
+    align-items: center;
+    text-align: left;
+  }
+
+  .addmovieform__left {
+    flex-basis: 40%;
+  }
+
+  .addmovieform__right {
+    flex-basis: 60%;
+  }
+}
+
