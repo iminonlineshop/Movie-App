@@ -13,7 +13,7 @@ function Movies(props) {
         <h2 className={styles.movies__judul}>{title}</h2>
         <div className={styles.movie__container}>
           {movies.map((movie) => {
-            return <Movie key={movie.id} movie={movie} />;
+            <Movie key={movie.id} movie={movie} />;
           })}
         </div>
       </section>
